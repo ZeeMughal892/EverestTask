@@ -36,21 +36,22 @@ func getEstimatedDeliveryTime(for packages: [Package]) {
 }
 
 func showDeliveryTimeOfPackages(collectionSet: [(Int, Int, Double)]) {
+    var sortedPkgs = remainingPkgs.sorted(by: { $0.weight > $1.weight })
     if let maxItem = collectionSet.max(by: { $0.2 < $1.2 }) {
         let pkg1 = maxItem.0 - 1
         let pkg2 = maxItem.1 - 1
         var vehicle1Time = 0.0
         if deliveredPkgs.contains(where: { $0.id == maxItem.0 || $0.id == maxItem.1 }) {
-            while !remainingPkgs.isEmpty {
-                if let maxFromRemainingPkg = remainingPkgs.sorted(by: { $0.weight > $1.weight }).max(by: { $0.weight < $1.weight }) {
-                    printDeliveryTimeStatement(pkgId: maxFromRemainingPkg.id)
-                    deliveredPkgs.append(remainingPkgs[maxFromRemainingPkg.id])
-                    remainingPkgs.remove(at: maxFromRemainingPkg.id - 1)
+            while !sortedPkgs.isEmpty {
+                if let maxFromRemainingPkg = sortedPkgs.sorted(by: { $0.weight > $1.weight }).max(by: { $0.weight < $1.weight }) {
+                    print("Delivering PKG\(sortedPkgs[0].id) in", String(format: "%.2f", calculateDeliveryTime(for: sortedPkgs[0])), "hrs")
+                    deliveredPkgs.append(maxFromRemainingPkg)
                 }
+                sortedPkgs.remove(at: 0)
             }
         } else {
-            printDeliveryTimeStatement(pkgId: maxItem.0)
-            printDeliveryTimeStatement(pkgId: maxItem.1)
+            print("Delivering PKG\(maxItem.1) in", String(format: "%.2f", calculateDeliveryTime(for: remainingPkgs[maxItem.1 - 1])), "hrs")
+            print("Delivering PKG\(maxItem.0) in", String(format: "%.2f", calculateDeliveryTime(for: remainingPkgs[maxItem.0 - 1])), "hrs")
             
             if calculateDeliveryTime(for: remainingPkgs[pkg1]) > calculateDeliveryTime(for: remainingPkgs[pkg2]) {
                 vehicle1Time = calculateDeliveryTime(for: remainingPkgs[pkg1]) * 2.0
@@ -67,10 +68,6 @@ func showDeliveryTimeOfPackages(collectionSet: [(Int, Int, Double)]) {
             collectionWeightSet.removeAll(where: { $0 == maxItem })
         }
     }
-}
-
-func printDeliveryTimeStatement(pkgId: Int) {
-    print("Delivering PKG\(pkgId) in", String(format: "%.2f", calculateDeliveryTime(for: remainingPkgs[pkgId - 1])), "hrs")
 }
 
 func checkSumOfWeights(pkg1: Package, pkg2: Package) -> (Int, Int, Double) {
