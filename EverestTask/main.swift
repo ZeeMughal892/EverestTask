@@ -11,7 +11,7 @@ var packages: [Package] = [
     Package(id: 2, weight: 75.0, distanceToDestination: 125.0, offerCode: Offers.OFR008.rawValue),
     Package(id: 3, weight: 175.0, distanceToDestination: 100.0, offerCode: Offers.OFR003.rawValue),
     Package(id: 4, weight: 110.0, distanceToDestination: 60.0, offerCode: Offers.OFR002.rawValue),
-    Package(id: 5, weight: 155.0, distanceToDestination: 95.0),
+    Package(id: 5, weight: 155.0, distanceToDestination: 95.0)
 ]
 
 var pkgs: [Package] = [
@@ -22,10 +22,12 @@ var pkgs: [Package] = [
 
 
 //  Problem One
+print("*** PROBLEM ONE***\n")
 for pkg in pkgs {
-//    getDiscountedDeliveryCost(for: pkg)
+    getDiscountedDeliveryCost(for: pkg)
 }
 
+print("\n*** PROBLEM TWO***\n")
 // Problem Two 
 getEstimatedDeliveryTime(for: packages)
 
