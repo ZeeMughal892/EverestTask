@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FC8FC8B2AE11A90002E5A8E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8FC8A2AE11A90002E5A8E /* main.swift */; };
+		1FC8FC9C2AE11C47002E5A8E /* EverestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8FC9B2AE11C47002E5A8E /* EverestTaskTests.swift */; };
+		1FF986952AE53858007B53B4 /* ProblemOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF986932AE53858007B53B4 /* ProblemOne.swift */; };
+		1FF986962AE53858007B53B4 /* ProblemTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF986942AE53858007B53B4 /* ProblemTwo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FC8FC852AE11A90002E5A8E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1FC8FC872AE11A90002E5A8E /* EverestTask */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EverestTask; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC8FC8A2AE11A90002E5A8E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1FC8FC992AE11C47002E5A8E /* EverestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC8FC9B2AE11C47002E5A8E /* EverestTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverestTaskTests.swift; sourceTree = "<group>"; };
+		1FF986932AE53858007B53B4 /* ProblemOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemOne.swift; sourceTree = "<group>"; };
+		1FF986942AE53858007B53B4 /* ProblemTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemTwo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FC8FC842AE11A90002E5A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC8FC962AE11C47002E5A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FC8FC7E2AE11A90002E5A8E = {
+			isa = PBXGroup;
+			children = (
+				1FC8FC892AE11A90002E5A8E /* EverestTask */,
+				1FC8FC9A2AE11C47002E5A8E /* EverestTaskTests */,
+				1FC8FC882AE11A90002E5A8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FC8FC882AE11A90002E5A8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FC8FC872AE11A90002E5A8E /* EverestTask */,
+				1FC8FC992AE11C47002E5A8E /* EverestTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FC8FC892AE11A90002E5A8E /* EverestTask */ = {
+			isa = PBXGroup;
+			children = (
+				1FF986932AE53858007B53B4 /* ProblemOne.swift */,
+				1FF986942AE53858007B53B4 /* ProblemTwo.swift */,
+				1FC8FC8A2AE11A90002E5A8E /* main.swift */,
+			);
+			path = EverestTask;
+			sourceTree = "<group>";
+		};
+		1FC8FC9A2AE11C47002E5A8E /* EverestTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC8FC9B2AE11C47002E5A8E /* EverestTaskTests.swift */,
+			);
+			path = EverestTaskTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FC8FC862AE11A90002E5A8E /* EverestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC8FC8E2AE11A90002E5A8E /* Build configuration list for PBXNativeTarget "EverestTask" */;
+			buildPhases = (
+				1FC8FC832AE11A90002E5A8E /* Sources */,
+				1FC8FC842AE11A90002E5A8E /* Frameworks */,
+				1FC8FC852AE11A90002E5A8E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverestTask;
+			productName = EverestTask;
+			productReference = 1FC8FC872AE11A90002E5A8E /* EverestTask */;
+			productType = "com.apple.product-type.tool";
+		};
+		1FC8FC982AE11C47002E5A8E /* EverestTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC8FC9D2AE11C47002E5A8E /* Build configuration list for PBXNativeTarget "EverestTaskTests" */;
+			buildPhases = (
+				1FC8FC952AE11C47002E5A8E /* Sources */,
+				1FC8FC962AE11C47002E5A8E /* Frameworks */,
+				1FC8FC972AE11C47002E5A8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverestTaskTests;
+			productName = EverestTaskTests;
+			productReference = 1FC8FC992AE11C47002E5A8E /* EverestTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FC8FC7F2AE11A90002E5A8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1FC8FC862AE11A90002E5A8E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					1FC8FC982AE11C47002E5A8E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 1FC8FC822AE11A90002E5A8E /* Build configuration list for PBXProject "EverestTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FC8FC7E2AE11A90002E5A8E;
+			productRefGroup = 1FC8FC882AE11A90002E5A8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FC8FC862AE11A90002E5A8E /* EverestTask */,
+				1FC8FC982AE11C47002E5A8E /* EverestTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FC8FC972AE11C47002E5A8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC8FC832AE11A90002E5A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF986952AE53858007B53B4 /* ProblemOne.swift in Sources */,
+				1FC8FC8B2AE11A90002E5A8E /* main.swift in Sources */,
+				1FF986962AE53858007B53B4 /* ProblemTwo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC8FC952AE11C47002E5A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC8FC9C2AE11C47002E5A8E /* EverestTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FC8FC8C2AE11A90002E5A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FC8FC8D2AE11A90002E5A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1FC8FC8F2AE11A90002E5A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1FC8FC902AE11A90002E5A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1FC8FC9E2AE11C47002E5A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.EverestTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1FC8FC9F2AE11C47002E5A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeeshan.EverestTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FC8FC822AE11A90002E5A8E /* Build configuration list for PBXProject "EverestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC8FC8C2AE11A90002E5A8E /* Debug */,
+				1FC8FC8D2AE11A90002E5A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC8FC8E2AE11A90002E5A8E /* Build configuration list for PBXNativeTarget "EverestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC8FC8F2AE11A90002E5A8E /* Debug */,
+				1FC8FC902AE11A90002E5A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC8FC9D2AE11C47002E5A8E /* Build configuration list for PBXNativeTarget "EverestTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC8FC9E2AE11C47002E5A8E /* Debug */,
+				1FC8FC9F2AE11C47002E5A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FC8FC7F2AE11A90002E5A8E /* Project object */;
+}
